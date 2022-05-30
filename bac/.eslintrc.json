@@ -4,7 +4,8 @@
   "parser": "@typescript-eslint/parser",
   "rules": {
     "prettier/prettier": ["error"],
-    "import/prefer-default-export": ["off"]
+    "import/prefer-default-export": ["off"],
+    "prefer-promise-reject-errors": ["off"]
   },
   "parserOptions": {
     "project": ["tsconfig.json"]
